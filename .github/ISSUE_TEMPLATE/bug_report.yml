@@ -1,0 +1,52 @@
+name: Bug report or accessibility barrier
+description: Report a reproducible problem with Purple Dragon AI Agent.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Do not post vulnerabilities or secrets here. Read SECURITY.md for private-report options. Redact personal data, local paths, prompts and credentials."
+  - type: input
+    id: version
+    attributes:
+      label: App version or commit
+      placeholder: "v2.0.0, source ZIP or repository commit"
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: "Windows version, Python version (source installs), WebView2 version if known, display scale and Fit/Readable/Large mode. For accessibility barriers, include input method and assistive technology/version if relevant."
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: "Use a minimal example with synthetic data. Identify the affected section and controls."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Optional redacted screenshots or error excerpts
+      description: "Review before sharing. Do not attach full settings, raw logs, conversations, workspaces or vault files."
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: "I checked this report for credentials, personal information and private project content."
+          required: true

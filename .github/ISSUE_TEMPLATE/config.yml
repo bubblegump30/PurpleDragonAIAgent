@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Security reporting guidance
+    url: https://github.com/bubblegump30/PurpleDragonAIAgent/security/policy
+    about: Read this before reporting a vulnerability; do not publish exploit details in an ordinary issue.
+  - name: Setup and usage help
+    url: https://github.com/bubblegump30/PurpleDragonAIAgent/blob/main/SUPPORT.md
+    about: Find startup, model-connection and troubleshooting guidance.

@@ -1,0 +1,27 @@
+name: Feature request
+description: Propose a focused improvement to the permission-controlled platform.
+title: "[Feature]: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or unmet need
+      description: "Explain the user task and current limitation. Do not include private prompts or project data."
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: "Describe what should change and how a user would interact with it."
+    validations:
+      required: true
+  - type: textarea
+    id: boundaries
+    attributes:
+      label: Permissions and privacy considerations
+      description: "Describe any file, model, network, execution or approval implications. SAFE MODE and mandatory approval gates must remain."
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives and additional context
