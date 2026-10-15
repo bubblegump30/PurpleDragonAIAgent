@@ -1,0 +1,258 @@
+{
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "windows_native": false,
+  "status": "passed",
+  "windows_acceptance": "pending_manual_checks",
+  "checks": [
+    {
+      "name": "native_bridge",
+      "passed": true,
+      "data": {
+        "bridge": "function",
+        "composer": true,
+        "title": "Purple Dragon AI Agent"
+      }
+    },
+    {
+      "name": "real_workspace_task",
+      "passed": true
+    },
+    {
+      "name": "multi_agent_native_panel",
+      "passed": true
+    },
+    {
+      "name": "multi_agent_live_handoffs",
+      "passed": true
+    },
+    {
+      "name": "viewport_1672x941",
+      "passed": true,
+      "data": {
+        "x": 57.109375,
+        "y": 0,
+        "width": 1557.7742919921875,
+        "height": 941,
+        "w": 1672,
+        "h": 941
+      }
+    },
+    {
+      "name": "bottom_controls_1672x941",
+      "passed": true,
+      "data": [
+        {
+          "id": "prompt",
+          "fits": true
+        },
+        {
+          "id": "composer-tools",
+          "fits": true
+        },
+        {
+          "id": "composer-model",
+          "fits": true
+        },
+        {
+          "id": "send",
+          "fits": true
+        },
+        {
+          "id": "footer-workspace",
+          "fits": true
+        },
+        {
+          "id": "footer-memory",
+          "fits": true
+        }
+      ]
+    },
+    {
+      "name": "viewport_1280x800",
+      "passed": true,
+      "data": {
+        "x": 0,
+        "y": 13.390625,
+        "width": 1280,
+        "height": 773.2057495117188,
+        "w": 1280,
+        "h": 800
+      }
+    },
+    {
+      "name": "bottom_controls_1280x800",
+      "passed": true,
+      "data": [
+        {
+          "id": "prompt",
+          "fits": true
+        },
+        {
+          "id": "composer-tools",
+          "fits": true
+        },
+        {
+          "id": "composer-model",
+          "fits": true
+        },
+        {
+          "id": "send",
+          "fits": true
+        },
+        {
+          "id": "footer-workspace",
+          "fits": true
+        },
+        {
+          "id": "footer-memory",
+          "fits": true
+        }
+      ]
+    },
+    {
+      "name": "viewport_1050x650",
+      "passed": true,
+      "data": {
+        "x": 0,
+        "y": 7.859375,
+        "width": 1050,
+        "height": 634.2703247070312,
+        "w": 1050,
+        "h": 650
+      }
+    },
+    {
+      "name": "bottom_controls_1050x650",
+      "passed": true,
+      "data": [
+        {
+          "id": "prompt",
+          "fits": true
+        },
+        {
+          "id": "composer-tools",
+          "fits": true
+        },
+        {
+          "id": "composer-model",
+          "fits": true
+        },
+        {
+          "id": "send",
+          "fits": true
+        },
+        {
+          "id": "footer-workspace",
+          "fits": true
+        },
+        {
+          "id": "footer-memory",
+          "fits": true
+        }
+      ]
+    },
+    {
+      "name": "settings_navigation",
+      "passed": true
+    },
+    {
+      "name": "ctrl_2_tools_shortcut",
+      "passed": true
+    },
+    {
+      "name": "navigation_keyboard_focus",
+      "passed": true
+    },
+    {
+      "name": "mandatory_approval_visible",
+      "passed": true
+    },
+    {
+      "name": "approval_cancel_rejects_without_writing",
+      "passed": true
+    },
+    {
+      "name": "model_center_discovery",
+      "passed": true
+    },
+    {
+      "name": "model_center_selected_inference",
+      "passed": true
+    },
+    {
+      "name": "dashboard_verified_status",
+      "passed": true
+    },
+    {
+      "name": "git_panel_preview",
+      "passed": true
+    },
+    {
+      "name": "git_panel_approved_branch",
+      "passed": true
+    },
+    {
+      "name": "security_session_scope_ui",
+      "passed": true
+    },
+    {
+      "name": "security_scope_enforced",
+      "passed": true
+    },
+    {
+      "name": "security_static_review_ui",
+      "passed": true
+    },
+    {
+      "name": "security_protected_path",
+      "passed": true
+    },
+    {
+      "name": "security_live_status",
+      "passed": true
+    },
+    {
+      "name": "settings_checkpoint_ui",
+      "passed": true
+    },
+    {
+      "name": "settings_restore_mandatory_approval",
+      "passed": true
+    },
+    {
+      "name": "settings_restore_applied",
+      "message": "Settings recovery operation complete.",
+      "passed": true
+    },
+    {
+      "name": "candidate_integrity_ui",
+      "result": {
+        "ok": true,
+        "message": "Local candidate readiness checks; pending acceptance remains explicit.",
+        "data": {
+          "status": "candidate_checks_passed",
+          "verified_files": 88,
+          "errors": [],
+          "runtime": {
+            "platform": "Linux",
+            "python": "3.12.3"
+          },
+          "pending": [
+            "Real Windows Edge WebView2 / DPI acceptance",
+            "Actual Windows DPAPI secret storage",
+            "Windows Sandbox execution",
+            "Live LM Studio and authenticated GitHub verification"
+          ],
+          "limitations": "Checksums detect drift against this local manifest; this is not a signature, security certification or stable-release approval."
+        }
+      },
+      "passed": true
+    }
+  ],
+  "version": "0.9.5",
+  "display_metrics": {
+    "device_pixel_ratio": 1,
+    "screen_width": 1920,
+    "screen_height": 1080
+  }
+}

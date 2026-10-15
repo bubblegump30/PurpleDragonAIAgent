@@ -1,0 +1,173 @@
+{
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "windows_native": false,
+  "status": "passed",
+  "windows_acceptance": "pending_manual_checks",
+  "checks": [
+    {
+      "name": "native_bridge",
+      "passed": true,
+      "data": {
+        "bridge": "function",
+        "composer": true,
+        "title": "Purple Dragon AI Agent"
+      }
+    },
+    {
+      "name": "real_workspace_task",
+      "passed": true
+    },
+    {
+      "name": "viewport_1672x941",
+      "passed": true,
+      "data": {
+        "x": 57.109375,
+        "y": 0,
+        "width": 1557.7742919921875,
+        "height": 941,
+        "w": 1672,
+        "h": 941
+      }
+    },
+    {
+      "name": "bottom_controls_1672x941",
+      "passed": true,
+      "data": [
+        {
+          "id": "prompt",
+          "fits": true
+        },
+        {
+          "id": "composer-tools",
+          "fits": true
+        },
+        {
+          "id": "composer-model",
+          "fits": true
+        },
+        {
+          "id": "send",
+          "fits": true
+        },
+        {
+          "id": "footer-workspace",
+          "fits": true
+        },
+        {
+          "id": "footer-memory",
+          "fits": true
+        }
+      ]
+    },
+    {
+      "name": "viewport_1280x800",
+      "passed": true,
+      "data": {
+        "x": 0,
+        "y": 13.390625,
+        "width": 1280,
+        "height": 773.2057495117188,
+        "w": 1280,
+        "h": 800
+      }
+    },
+    {
+      "name": "bottom_controls_1280x800",
+      "passed": true,
+      "data": [
+        {
+          "id": "prompt",
+          "fits": true
+        },
+        {
+          "id": "composer-tools",
+          "fits": true
+        },
+        {
+          "id": "composer-model",
+          "fits": true
+        },
+        {
+          "id": "send",
+          "fits": true
+        },
+        {
+          "id": "footer-workspace",
+          "fits": true
+        },
+        {
+          "id": "footer-memory",
+          "fits": true
+        }
+      ]
+    },
+    {
+      "name": "viewport_1050x650",
+      "passed": true,
+      "data": {
+        "x": 0,
+        "y": 7.859375,
+        "width": 1050,
+        "height": 634.2703247070312,
+        "w": 1050,
+        "h": 650
+      }
+    },
+    {
+      "name": "bottom_controls_1050x650",
+      "passed": true,
+      "data": [
+        {
+          "id": "prompt",
+          "fits": true
+        },
+        {
+          "id": "composer-tools",
+          "fits": true
+        },
+        {
+          "id": "composer-model",
+          "fits": true
+        },
+        {
+          "id": "send",
+          "fits": true
+        },
+        {
+          "id": "footer-workspace",
+          "fits": true
+        },
+        {
+          "id": "footer-memory",
+          "fits": true
+        }
+      ]
+    },
+    {
+      "name": "settings_navigation",
+      "passed": true
+    },
+    {
+      "name": "ctrl_2_tools_shortcut",
+      "passed": true
+    },
+    {
+      "name": "navigation_keyboard_focus",
+      "passed": true
+    },
+    {
+      "name": "mandatory_approval_visible",
+      "passed": true
+    },
+    {
+      "name": "approval_cancel_rejects_without_writing",
+      "passed": true
+    }
+  ],
+  "version": "0.6.6",
+  "display_metrics": {
+    "device_pixel_ratio": 2,
+    "screen_width": 1920,
+    "screen_height": 1080
+  }
+}

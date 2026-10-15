@@ -1,0 +1,40 @@
+[
+  {
+    "name": "source artwork loaded",
+    "passed": true,
+    "value": "url(\"file:///workspace/scratch/1e6ab37509bd/PurpleDragonAIAgent-v0.6.5/frontend/reference-ui.png\")"
+  },
+  {
+    "name": "task returns real file list",
+    "passed": true,
+    "value": "\nPurple Dragon AIReadyWelcome to your local agent workspace.Describe a goal below. Review file changes, run approved tests, manage project memory, and research permitted sources.SAFE MODE is active. Sensitive actions require your approval.\ud83d\udcc1 Project Structure\u2318 Coding & Tests\u25a4 Key Files\u25c7 Project Memory\nYou05:44\u202fPMscan workspacePurple Dragon AI05:44\u202fPMList files in the workspace.\n\nlist_files: Found 1 file(s).\n[\n  \"hello.py\"\n]"
+  },
+  {
+    "name": "file read stays inert text",
+    "passed": true,
+    "value": {
+      "bad": false,
+      "read": "print('hello')\n# <script>window.BAD=true</script>\n"
+    }
+  },
+  {
+    "name": "approval dialog opens",
+    "passed": true,
+    "value": true
+  },
+  {
+    "name": "denied stage did not write file",
+    "passed": true,
+    "value": "write_file: Rejected by user."
+  },
+  {
+    "name": "settings route renders local config",
+    "passed": true,
+    "value": "http://127.0.0.1:1234/v1/chat/completions"
+  },
+  {
+    "name": "source sample claims masked",
+    "passed": true,
+    "value": true
+  }
+]

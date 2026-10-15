@@ -1,0 +1,26 @@
+:root{--desktop-focus:#f4dcff}
+body{overflow:auto}
+#desktop-extent{position:absolute;left:0;top:0;pointer-events:none}
+#skip-content{position:fixed;left:12px;top:-100px;z-index:100;background:#20132e;color:#fff;border:2px solid var(--desktop-focus);padding:12px}
+#skip-content:focus{top:12px}
+#desktop-options{position:absolute;left:32px;top:670px;width:164px;height:44px;z-index:40;background:#160e25;color:#e9dcff;border:1px solid #9665bb;border-radius:6px;padding:7px 10px;font-size:12px;box-shadow:inset 0 1px 1px #b18bc7}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,[tabindex]:focus-visible{outline:3px solid var(--desktop-focus);outline-offset:2px}
+#route-title:focus{outline:2px solid #c692ed;outline-offset:5px}
+#desktop-dialog{position:fixed;inset:0;margin:auto;width:min(640px,calc(100vw - 32px));max-height:calc(100vh - 32px);font-size:16px;line-height:1.6;transform:none}
+#desktop-dialog h2{text-align:center;margin-top:0;font-size:22px}
+#desktop-dialog>label{display:block;margin:14px 0}
+#desktop-dialog .field{font-size:15px}
+#desktop-dialog button{padding:10px;border:1px solid #a27cc6;background:linear-gradient(#372342,#1d142a);border-radius:6px;min-height:40px}
+#desktop-dialog .dialog-actions{flex-wrap:wrap}
+#desktop-dialog input{accent-color:#b980ef;width:20px;height:20px;vertical-align:middle}
+.strong-contrast{--text:#fff;--muted:#e2daf0}
+.strong-contrast #route-body,.strong-contrast #conversation,.strong-contrast #guide-panel,.strong-contrast #conversation-panel,.strong-contrast #model-context-panel{background:#0b0911;color:#fff}
+.strong-contrast .fine,.strong-contrast .field,.strong-contrast .message-meta,.strong-contrast small,.strong-contrast #route-body p,.strong-contrast #guide-panel p,.strong-contrast #model-context-panel p{color:#e2daf0}
+.strong-contrast input,.strong-contrast textarea,.strong-contrast select,.strong-contrast pre{color:#fff;background:#09070e;border-color:#aa8bbf}
+.strong-contrast button{border-color:#bd97dc}
+.reduced-motion *,.reduced-motion *::before,.reduced-motion *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+@media(forced-colors:active){button,input,textarea,select,dialog{border:1px solid ButtonText}#stage{border:1px solid CanvasText}.hit{forced-color-adjust:none}.hit:focus-visible{outline:3px solid #fff}}
+
+.native-window-version{display:none}.native-window-frame .native-window-version{display:flex;position:absolute;left:1507px;top:20px;width:150px;height:58px;z-index:2;flex-direction:column;align-items:center;justify-content:center;background:linear-gradient(110deg,#080b18,#0b0718);color:#ceb7ef;font-size:12px;letter-spacing:1px;line-height:20px}.native-window-version small{font-size:10px;color:#91add1}.native-window-frame [data-window]{display:none}

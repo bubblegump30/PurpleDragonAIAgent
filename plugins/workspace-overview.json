@@ -1,0 +1,18 @@
+{
+  "api_version": 1,
+  "id": "workspace-overview",
+  "name": "Workspace Overview",
+  "version": "1.0.0",
+  "description": "Index the workspace and detect supported tests without executing project code.",
+  "inputs": {},
+  "steps": [
+    {
+      "tool": "index_workspace",
+      "args": {}
+    },
+    {
+      "tool": "detect_test_framework",
+      "args": {}
+    }
+  ]
+}

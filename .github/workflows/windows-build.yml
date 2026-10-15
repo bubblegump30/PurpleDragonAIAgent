@@ -1,0 +1,30 @@
+name: Windows build and verification
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: windows-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Install installer compiler in the build runner
+        run: choco install innosetup --yes --no-progress
+      - name: Test, verify and package Windows artifacts
+        shell: pwsh
+        run: ./Build-Windows.ps1 -Installer
+      - uses: actions/upload-artifact@v7
+        with:
+          name: PurpleDragonAI-Windows-build
+          if-no-files-found: error
+          path: |
+            dist/*.zip
+            dist/*.exe
+            dist/*.sha256
+            verification-results/windows-source-build.json

@@ -1,0 +1,551 @@
+{
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "windows_native": false,
+  "status": "passed",
+  "windows_acceptance": "pending_manual_checks",
+  "checks": [
+    {
+      "name": "native_bridge",
+      "passed": true,
+      "data": {
+        "bridge": "function",
+        "composer": true,
+        "title": "Purple Dragon AI Agent"
+      }
+    },
+    {
+      "name": "real_workspace_task",
+      "passed": true
+    },
+    {
+      "name": "multi_agent_native_panel",
+      "passed": true
+    },
+    {
+      "name": "multi_agent_live_handoffs",
+      "passed": true
+    },
+    {
+      "name": "viewport_1672x941",
+      "passed": true,
+      "data": {
+        "x": 57.109375,
+        "y": 0,
+        "width": 1557.7742919921875,
+        "height": 941,
+        "w": 1672,
+        "h": 941
+      }
+    },
+    {
+      "name": "bottom_controls_1672x941",
+      "passed": true,
+      "data": [
+        {
+          "id": "prompt",
+          "fits": true
+        },
+        {
+          "id": "composer-tools",
+          "fits": true
+        },
+        {
+          "id": "composer-model",
+          "fits": true
+        },
+        {
+          "id": "send",
+          "fits": true
+        },
+        {
+          "id": "footer-workspace",
+          "fits": true
+        },
+        {
+          "id": "footer-memory",
+          "fits": true
+        }
+      ]
+    },
+    {
+      "name": "viewport_1280x800",
+      "passed": true,
+      "data": {
+        "x": 0,
+        "y": 13.390625,
+        "width": 1280,
+        "height": 773.2057495117188,
+        "w": 1280,
+        "h": 800
+      }
+    },
+    {
+      "name": "bottom_controls_1280x800",
+      "passed": true,
+      "data": [
+        {
+          "id": "prompt",
+          "fits": true
+        },
+        {
+          "id": "composer-tools",
+          "fits": true
+        },
+        {
+          "id": "composer-model",
+          "fits": true
+        },
+        {
+          "id": "send",
+          "fits": true
+        },
+        {
+          "id": "footer-workspace",
+          "fits": true
+        },
+        {
+          "id": "footer-memory",
+          "fits": true
+        }
+      ]
+    },
+    {
+      "name": "viewport_1050x650",
+      "passed": true,
+      "data": {
+        "x": 0,
+        "y": 7.859375,
+        "width": 1050,
+        "height": 634.2703247070312,
+        "w": 1050,
+        "h": 650
+      }
+    },
+    {
+      "name": "bottom_controls_1050x650",
+      "passed": true,
+      "data": [
+        {
+          "id": "prompt",
+          "fits": true
+        },
+        {
+          "id": "composer-tools",
+          "fits": true
+        },
+        {
+          "id": "composer-model",
+          "fits": true
+        },
+        {
+          "id": "send",
+          "fits": true
+        },
+        {
+          "id": "footer-workspace",
+          "fits": true
+        },
+        {
+          "id": "footer-memory",
+          "fits": true
+        }
+      ]
+    },
+    {
+      "name": "settings_navigation",
+      "passed": true
+    },
+    {
+      "name": "ctrl_2_tools_shortcut",
+      "passed": true,
+      "data": {
+        "active": "tools",
+        "touched": false,
+        "dirty": false,
+        "dialog": false,
+        "title": "TOOLS & WORKSPACE"
+      }
+    },
+    {
+      "name": "navigation_keyboard_focus",
+      "passed": true
+    },
+    {
+      "name": "mandatory_approval_visible",
+      "passed": true
+    },
+    {
+      "name": "approval_cancel_rejects_without_writing",
+      "passed": true
+    },
+    {
+      "name": "model_center_discovery",
+      "passed": true
+    },
+    {
+      "name": "model_center_selected_inference",
+      "passed": true
+    },
+    {
+      "name": "dashboard_verified_status",
+      "passed": true
+    },
+    {
+      "name": "model_profile_save_native",
+      "passed": true
+    },
+    {
+      "name": "model_profile_load_native",
+      "passed": true
+    },
+    {
+      "name": "local_model_diagnostics_native",
+      "passed": true
+    },
+    {
+      "name": "model_preset_is_unsaved_native",
+      "passed": true
+    },
+    {
+      "name": "model_profile_delete_preserves_active_native",
+      "passed": true
+    },
+    {
+      "name": "conversation_native_plain_answer",
+      "passed": true
+    },
+    {
+      "name": "coding_preflight_native",
+      "passed": true
+    },
+    {
+      "name": "coding_stale_preflight_refused_native",
+      "passed": true
+    },
+    {
+      "name": "coding_multifile_staged_report_native",
+      "passed": true
+    },
+    {
+      "name": "coding_apply_still_mandatory_native",
+      "passed": true
+    },
+    {
+      "name": "validation_tests_require_approval_native",
+      "passed": true,
+      "data": {
+        "job": {
+          "id": "e936ce65c131468384da7d722d605a57",
+          "state": "running",
+          "kind": "tool",
+          "label": "run_tests",
+          "result": null
+        },
+        "ui": {
+          "toast": "Saved profile deleted. Active settings are unchanged.",
+          "preview": "[\"/tmp/purple-dragon-webview-check-lzwsh_4w/workspace\",\"unittest\",\"15\"]",
+          "key": "[\"/tmp/purple-dragon-webview-check-lzwsh_4w/workspace\",\"unittest\",\"15\"]",
+          "current": "run_tests"
+        }
+      }
+    },
+    {
+      "name": "validation_failed_test_summary_native",
+      "passed": true,
+      "data": {
+        "summary": {
+          "outcome": "failed",
+          "counts": {
+            "run": 1,
+            "collected": null,
+            "passed": null,
+            "failed": 1,
+            "errors": null,
+            "skipped": null,
+            "expected_failures": null,
+            "unexpected_successes": null
+          },
+          "failures": [
+            "FAIL: test_failure (test_validation.Checks.test_failure)"
+          ],
+          "failure_list_truncated": false,
+          "output_truncated": false,
+          "note": "Counts and failure names are parsed from process output and can be incomplete or misleading. Exit status, raw output and manual review remain necessary. Tests run files on disk, not unapplied staged proposals."
+        },
+        "job": {
+          "id": "e936ce65c131468384da7d722d605a57",
+          "state": "finished",
+          "kind": "tool",
+          "label": "run_tests",
+          "result": {
+            "ok": false,
+            "message": "Tests finished; exit code 1. Test failure: inspect the traceback/assertions before proposing a repair in Coding.",
+            "data": {
+              "state": "finished",
+              "output": "test_failure (test_validation.Checks.test_failure) ... FAIL\n\n======================================================================\nFAIL: test_failure (test_validation.Checks.test_failure)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/tmp/purple-dragon-webview-check-lzwsh_4w/workspace/tests/test_validation.py\", line 3, in test_failure\n    def test_failure(self): self.assertEqual(1,2)\n                            ^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 1 != 2\n\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nFAILED (failures=1)\n",
+              "summary": {
+                "outcome": "failed",
+                "counts": {
+                  "run": 1,
+                  "collected": null,
+                  "passed": null,
+                  "failed": 1,
+                  "errors": null,
+                  "skipped": null,
+                  "expected_failures": null,
+                  "unexpected_successes": null
+                },
+                "failures": [
+                  "FAIL: test_failure (test_validation.Checks.test_failure)"
+                ],
+                "failure_list_truncated": false,
+                "output_truncated": false,
+                "note": "Counts and failure names are parsed from process output and can be incomplete or misleading. Exit status, raw output and manual review remain necessary. Tests run files on disk, not unapplied staged proposals."
+              },
+              "truncated": false,
+              "bytes_seen": 643,
+              "argv": [
+                "/usr/bin/python3.12",
+                "-u",
+                "-m",
+                "unittest",
+                "discover",
+                "-s",
+                "tests",
+                "-v"
+              ],
+              "exit_code": 1,
+              "execution_available": true,
+              "elapsed_seconds": 0.1,
+              "framework": "unittest",
+              "command": "/usr/bin/python3.12 -u -m unittest discover -s tests -v",
+              "cwd": "/tmp/purple-dragon-webview-check-lzwsh_4w/workspace",
+              "triage": "Test failure: inspect the traceback/assertions before proposing a repair in Coding.",
+              "saved_result": "/root/.local/share/PurpleDragonAIAgent/recovery/83a50a350b94da023162878be83fb2581b8eec7213296ba4aacbf4a486fe00c7/test-runs/073e866b3211493e924a8326d8677aa4.json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "git_panel_preview",
+      "passed": true
+    },
+    {
+      "name": "git_panel_approved_branch",
+      "passed": true
+    },
+    {
+      "name": "security_session_scope_ui",
+      "passed": true
+    },
+    {
+      "name": "security_scope_enforced",
+      "passed": true
+    },
+    {
+      "name": "security_static_review_ui",
+      "passed": true
+    },
+    {
+      "name": "multiline_selected_paths",
+      "passed": true
+    },
+    {
+      "name": "security_protected_path",
+      "passed": true
+    },
+    {
+      "name": "security_live_status",
+      "passed": true
+    },
+    {
+      "name": "settings_checkpoint_ui",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_selector_ui",
+      "passed": true
+    },
+    {
+      "name": "settings_restore_mandatory_approval",
+      "passed": true
+    },
+    {
+      "name": "settings_restore_applied",
+      "message": "Settings recovery operation complete.",
+      "passed": true
+    },
+    {
+      "name": "candidate_integrity_ui",
+      "result": {
+        "ok": true,
+        "message": "Local candidate readiness checks; pending acceptance remains explicit.",
+        "data": {
+          "status": "candidate_checks_passed",
+          "verified_files": 122,
+          "errors": [],
+          "runtime": {
+            "platform": "Linux",
+            "python": "3.12.3"
+          },
+          "distribution": "source",
+          "pending": [
+            "Real Windows Edge WebView2 / DPI acceptance",
+            "Actual Windows DPAPI secret storage",
+            "Windows Sandbox execution",
+            "Live LM Studio and authenticated GitHub verification"
+          ],
+          "limitations": "Checksums detect drift against this local manifest; this is not a signature, security certification or stable-release approval."
+        }
+      },
+      "passed": true
+    },
+    {
+      "name": "plugin_contract_review_ui",
+      "passed": true
+    },
+    {
+      "name": "plugin_mandatory_approval_ui",
+      "passed": true
+    },
+    {
+      "name": "plugin_workflow_real_tools",
+      "passed": true
+    },
+    {
+      "name": "edited_form_rejects_late_plugin_review",
+      "passed": true
+    },
+    {
+      "name": "guide_context_f1",
+      "passed": true
+    },
+    {
+      "name": "guide_offline_search",
+      "passed": true
+    },
+    {
+      "name": "guide_preserves_unsaved_form",
+      "passed": true
+    },
+    {
+      "name": "guide_tour_navigation",
+      "passed": true
+    },
+    {
+      "name": "guide_viewport_1672x941",
+      "passed": true
+    },
+    {
+      "name": "guide_viewport_1280x800",
+      "passed": true
+    },
+    {
+      "name": "guide_viewport_1050x650",
+      "passed": true
+    },
+    {
+      "name": "guide_yields_to_approval",
+      "passed": true
+    },
+    {
+      "name": "saved_chat_safe_code_rendering",
+      "passed": true
+    },
+    {
+      "name": "conversation_history_fulltext_search",
+      "passed": true
+    },
+    {
+      "name": "conversation_rename_native",
+      "passed": true
+    },
+    {
+      "name": "conversation_viewport_1672x941",
+      "passed": true
+    },
+    {
+      "name": "conversation_viewport_1280x800",
+      "passed": true
+    },
+    {
+      "name": "conversation_viewport_1050x650",
+      "passed": true
+    },
+    {
+      "name": "conversation_delete_requires_confirmation",
+      "passed": true
+    },
+    {
+      "name": "conversation_delete_native",
+      "passed": true
+    },
+    {
+      "name": "workspace_tree_search",
+      "passed": true
+    },
+    {
+      "name": "workspace_selected_coding_context",
+      "passed": true
+    },
+    {
+      "name": "workspace_unsaved_navigation_guard",
+      "passed": true
+    },
+    {
+      "name": "workspace_keep_unsaved_form",
+      "passed": true
+    },
+    {
+      "name": "workspace_confirm_navigation",
+      "passed": true
+    },
+    {
+      "name": "workspace_structured_diff_review",
+      "passed": true
+    },
+    {
+      "name": "workspace_viewport_1672x941",
+      "passed": true
+    },
+    {
+      "name": "workspace_viewport_1280x800",
+      "passed": true
+    },
+    {
+      "name": "workspace_viewport_1050x650",
+      "passed": true
+    },
+    {
+      "name": "workspace_late_read_preserves_edits",
+      "passed": true
+    },
+    {
+      "name": "workspace_escape_keeps_edits",
+      "passed": true
+    },
+    {
+      "name": "workspace_context_limit_eight",
+      "passed": true
+    },
+    {
+      "name": "workspace_comma_filename_context",
+      "passed": true
+    },
+    {
+      "name": "workspace_partial_settings_save_preserves_other_dirty_fields",
+      "passed": true
+    },
+    {
+      "name": "validation_fast_completion_not_lost",
+      "passed": true
+    }
+  ],
+  "version": "1.5.0",
+  "display_metrics": {
+    "device_pixel_ratio": 1,
+    "screen_width": 1920,
+    "screen_height": 1080
+  }
+}

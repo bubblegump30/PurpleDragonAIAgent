@@ -1,0 +1,61 @@
+{
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "windows_native": false,
+  "status": "passed",
+  "checks": [
+    {
+      "name": "native_bridge",
+      "passed": true,
+      "data": {
+        "bridge": "function",
+        "composer": true,
+        "title": "Purple Dragon AI Agent"
+      }
+    },
+    {
+      "name": "real_workspace_task",
+      "passed": true
+    },
+    {
+      "name": "viewport_1672x941",
+      "passed": true,
+      "data": {
+        "x": 0,
+        "y": 0,
+        "width": 1672,
+        "height": 941,
+        "w": 1672,
+        "h": 941
+      }
+    },
+    {
+      "name": "viewport_1280x800",
+      "passed": true,
+      "data": {
+        "x": 0,
+        "y": 39.796875,
+        "width": 1280,
+        "height": 720.3827514648438,
+        "w": 1280,
+        "h": 800
+      }
+    },
+    {
+      "name": "viewport_1050x650",
+      "passed": true,
+      "data": {
+        "x": 0,
+        "y": 29.515625,
+        "width": 1050,
+        "height": 590.93896484375,
+        "w": 1050,
+        "h": 650
+      }
+    },
+    {
+      "name": "settings_navigation",
+      "passed": true
+    }
+  ],
+  "version": "0.6.3"
+}

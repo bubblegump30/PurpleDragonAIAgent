@@ -1,0 +1,28 @@
+{
+  "api_version": 1,
+  "id": "source-review",
+  "name": "Source Review",
+  "version": "1.0.0",
+  "description": "Static source analysis and bounded security heuristics on explicitly selected files.",
+  "inputs": {
+    "paths": "paths"
+  },
+  "steps": [
+    {
+      "tool": "analyze_code",
+      "args": {
+        "paths": {
+          "$input": "paths"
+        }
+      }
+    },
+    {
+      "tool": "security_review",
+      "args": {
+        "paths": {
+          "$input": "paths"
+        }
+      }
+    }
+  ]
+}

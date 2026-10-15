@@ -1,0 +1,83 @@
+{
+  "app_name": "Purple Dragon AI Agent",
+  "version": "2.0.0",
+  "workspace": "workspace",
+  "lm_studio": {
+    "enabled": false,
+    "endpoint": "http://127.0.0.1:1234/v1/chat/completions",
+    "model": "local-model",
+    "temperature": 0.2,
+    "timeout_seconds": 60,
+    "max_tokens": 2048,
+    "profiles": {}
+  },
+  "permissions": {
+    "list_files": "allow",
+    "read_file": "allow",
+    "write_file": "ask",
+    "run_tests": "ask",
+    "run_command": "deny",
+    "delete_file": "deny",
+    "install_package": "deny",
+    "network_access": "deny",
+    "git_push": "deny",
+    "publish_release": "deny",
+    "index_workspace": "allow",
+    "preview_file": "allow",
+    "stage_changes": "allow",
+    "review_changes": "allow",
+    "discard_changes": "allow",
+    "snapshot_workspace": "ask",
+    "list_snapshots": "allow",
+    "prepare_restore": "allow",
+    "restore_snapshot": "ask",
+    "analyze_code": "allow",
+    "propose_code_changes": "ask",
+    "rename_python_function": "allow",
+    "detect_test_framework": "allow",
+    "preview_tests": "allow",
+    "export_sandbox_tests": "ask",
+    "list_memory": "allow",
+    "retrieve_memory": "allow",
+    "record_task_history": "allow",
+    "save_memory": "ask",
+    "delete_memory": "ask",
+    "clear_memory": "ask",
+    "preview_web": "allow",
+    "fetch_web": "allow",
+    "list_web_sources": "allow",
+    "read_web_source": "allow",
+    "create_research_brief": "ask",
+    "clear_web_sources": "ask",
+    "git_status": "allow",
+    "git_diff": "allow",
+    "git_preview": "allow",
+    "git_branch": "ask",
+    "git_commit": "ask",
+    "github_create_pr": "ask",
+    "github_network": "ask",
+    "security_review": "allow",
+    "sandbox_status": "allow",
+    "restore_settings": "ask",
+    "plugin_run": "ask"
+  },
+  "ui": {
+    "theme": "neo_purple",
+    "compact_sidebar": false,
+    "show_welcome": true
+  },
+  "project_memory": {
+    "use_context": false,
+    "record_history": true
+  },
+  "research": {
+    "enabled": false,
+    "allowed_domains": [],
+    "denied_domains": []
+  },
+  "security": {
+    "protect_secret_files": true,
+    "denied_paths": [],
+    "denied_tools": []
+  }
+}
